@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+# Install and create Virtual env
+sudo apt-get -y update
+sudo apt-get -y install python3-pip
+pip3 install virtualenv
+which virtualenv
+virtualenv -p /usr/bin/python3 venv
+
+# Activate Virtaul env and install dependecies
+source venv/bin/activate
+sudo apt-get -y update
+pip3 install flask flask-jsonpify flask-sqlalchemy requests python-dotenv
+sudo apt-get -y install sqlite3
+pip3 freeze
