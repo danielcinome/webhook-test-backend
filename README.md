@@ -22,9 +22,9 @@ File Name|Description
 ---|---
 [config_venv	](https://github.com/danielcinome/todolegal-test-backend/blob/main/config_venv)| En éste archivo encontrara la configuración para su ambiente local, contiene una serie de scripts de instalación de paquetes necesarios para correr el proyecto.
 |.env| Crea este Archivo de manera local. NO esta presente en el repositorio por buenas practicas, sin embargo por fines de prueba, dejo los keys=values necesarios.
-`API_HOTS=127.0.0.1`
-`API_POTR=3000`
-`WEBHOOK_URL="https://webhook.site/83bee475-9903-4dc0-b23c-dd44b0a2582b"`
+| |`API_HOTS=127.0.0.1`
+| |`API_POTR=3000`
+| |`WEBHOOK_URL="https://webhook.site/83bee475-9903-4dc0-b23c-dd44b0a2582b"`
 
 #### Nota: El webhook proporcionado en la descripción de la prueba parece haber caducado por lo cual genere el del key `WEBHOOK_URL`
 
