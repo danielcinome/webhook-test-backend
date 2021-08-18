@@ -1,5 +1,3 @@
-# Prueba tecnica - TodoLegal
-
 ## Proyecto
 1. Generar mockup data de un valor de cambio de las siguientes opciones en 5 días diferentes: 
 		Euros a dólares
